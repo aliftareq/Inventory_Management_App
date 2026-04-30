@@ -49,7 +49,7 @@ const CardExpenseSummary = () => {
         <div className="m-5">Loading...</div>
       ) : (
         <>
-          <div className="flex flex-col justify-between bg-white shadow-md rounded-2xl h-112.5 xl:h-100 md:h-105">
+          <div className="flex flex-col justify-between bg-white shadow-md rounded-2xl h-112 xl:h-80 md:h-105">
             {/* HEADER */}
             <div className="px-7 pt-5">
               <h2 className="text-lg font-semibold mb-2">Expense Summary</h2>
