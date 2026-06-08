@@ -65,7 +65,8 @@ const Products = () => {
           className="flex items-center bg-blue-500 hover:bg-blue-700 text-gray-200 font-bold py-2 px-4 rounded"
           onClick={() => setIsModalOpen(true)}
         >
-          <PlusCircleIcon className="w-5 h-5 mr-2 text-gray-200!" /> Create Product
+          <PlusCircleIcon className="w-5 h-5 mr-2 text-gray-200!" /> Create
+          Product
         </button>
       </div>
 
@@ -81,7 +82,7 @@ const Products = () => {
             >
               <div className="flex flex-col items-center">
                 <Image
-                  src={`https://s3-inventorymanagement.s3.us-east-2.amazonaws.com/product${
+                  src={`https://s3-inventorymanagementapp.s3.ap-south-1.amazonaws.com/product${
                     Math.floor(Math.random() * 3) + 1
                   }.png`}
                   alt={product.name}
